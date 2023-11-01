@@ -1,29 +1,10 @@
-/* Add your styles here */
+/* style.css */
 body {
-    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
 }
 
 header {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay with 60% opacity */
+    color: #fff; /* Text color for the header */
 }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px 0;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-section {
-    margin: 20px;
-}
-
-/* Add more styles as needed */
